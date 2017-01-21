@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="200" height="200" viewBox="0, 0, 200, 200">
+  <g id="Layer_1">
+    <path d="M100,200 C44.772,200 -0,155.228 -0,100 C-0,44.772 44.772,0 100,0 C155.228,0 200,44.772 200,100 C200,155.228 155.228,200 100,200 z" fill="#5E5E5E"/>
+    <text transform="matrix(1, 0, 0, 1, 100, 97)">
+      <tspan x="-73.525" y="-2" font-family="Helvetica" font-size="54" fill="#FFFFFF">Grace </tspan>
+      <tspan x="-36.031" y="49.2" font-family="Helvetica" font-size="54" fill="#FFFFFF">lab</tspan>
+    </text>
+  </g>
+</svg>
