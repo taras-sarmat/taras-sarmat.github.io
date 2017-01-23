@@ -3,7 +3,7 @@
 <title>Grace Lab</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="styles9.css" />
+	<link rel="stylesheet" type="text/css" href="styles9.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 
@@ -15,31 +15,48 @@ background-position: center center;
 background-attachment: fixed;
 background-size: cover;
 }
-.object{
-  height: 50px;
-  width: 50px;
-}
+
 .fa{
-}
-p {
+margin-left: 50px; 
   color: #fff;
-   font-size: 18px;
 }
-.links{
-  height: 50px;
-  width: 50px;
+.fa-facebook-official{
+  margin-left: 60px;
 }
-.w3-col{
-margin:0,0,0,0;
+.fa-instagram{
+  margin-left: 75px;
+}
+.fa-linkedin{
+  margin-left: 80px;
+}
+
+p {
+	 color: #fff;
+	 font-size: 18px;
 }
 #logo { max-width: 100%; }
-@media only screen and (max-width: 800px) {
-  body{
-        margin-left: 15px;
-        margin-right: 10px;
-
+@media only screen and (max-width: 610px) {
+ .w3-col{
+  width:49.99999%;
+ }
+ .fa-linkedin{
+  margin-left: 70px;
+   }
+  .fa-globe{
+    margin-left: 60px;
   }
- .w3-justify{      
+  .fa{
+margin-left: 0px; 
+  color: #fff;
+}
+}
+@media only screen and (max-width: 800px) {
+	body{
+		    margin-left: 15px;
+		    margin-right: 10px;
+
+	}
+ .w3-justify{   	 
 
         text-align: center !important;
 
@@ -50,9 +67,9 @@ margin:0,0,0,0;
 <!-- Page content -->
 <div class="w3-content " style="max-width:2000px;margin-top:0px">
   <div class="w3-container w3-center w3-content w3-padding-0" style="max-width:800px">
-  <div id="scalable-image">
+  <!--<div id="scalable-image">-->
   <img id="logo" src="(url/../images/logo.svg" alt="grace-lab"/>
-  </div>
+  <!--</div>-->
       <p class="w3-justify">Grace Lab is a team of friends which has something more in common than just programming. It is love for God and for people. While working with
        the clients, we help them to understand their needs, goals and dreams to work together on their realization.</p>
 
@@ -76,76 +93,41 @@ margin:0,0,0,0;
     </div>
  <p> “Whatever you do, work at it with all your heart, as working for the Lord, not for human masters, since you know that you will receive an inheritance from the Lord as a reward. It is the Lord Christ you are serving”. </p>
  <!-- Footer -->
- <!-- for 6 icons with text-->
-<a href="https://www.facebook.com/gracelab.co/">
-  <div class="w3-col m4 w3-center w3-padding-25">
-       <img class="links" src="Icon/facebook.svg" alt=""/>
-       <p>www.facebook.com/gracelab.co</p>
-</a>
+   <div class="w3-col m4 w3-center" > 
+      <a href="https://www.facebook.com/gracelab.co/">
+         <i class="fa fa-facebook-official fa-2x w3-hover-text-indigo" style="float: left;"><p>gracelab.co</p></i>
+     </a>
+   </div>
 
-  </div>
-<a href="#">
-  <div class="w3-col m4 w3-center">
-       <img class="links" src="Icon/instagram.svg" alt="" />
-       <p>www.instagram/gracelab</p>
-  </div>     
-</a>
+    <div class="w3-col m4 w3-center">
+       <a href="#">
+         <i class="fa fa-instagram fa-2x w3-hover-text-indigo" style="float: left;"><p>grace_lab</p></i>
+       </a>
+     </div>
 
-  <a href="https://www.linkedin.com/company/grace-lab/">
-  <div class="w3-col m4 w3-center">
-       <img class="links" src="Icon/linkedin.svg" alt="" />
-       <p>www.linkedin.com/company/grace-lab</p>
-  </div>
-  </a>
+    <div class="w3-col m4 w3-center ">
+      <a href="https://www.linkedin.com/company/grace-lab/">
+        <i class="fa fa-linkedin fa-2x w3-hover-text-indigo" style="float: left;"><p>grace-lab</p></i>
+      </a>
+    </div>
 
-  <div class="w3-col m4 w3-center">
-       <img class="links" src="Icon/wassap-logo-button.svg" alt="" />
-       <p>+38 063 068 25 16</p>
-  </div>
+    <div class="w3-col m4 w3-center">
+       <a href="http://gracelab.co/en/">
+          <i class="fa fa-globe fa-2x w3-hover-text-indigo"  style="float: left;"><p>gracelab.co.en</p></i>
+       </a>
+    </div>
 
-  <a href="http://gracelab.co/en/">
-   <div class="w3-col m4 w3-center">
-       <img class="links" src="Icon/internet (1).svg" alt="" />
-       <p>http://gracelab.co/en</p>
-  </div>
+    <div class="w3-col m4 w3-center">
+      <i class="fa fa-envelope fa-2x w3-hover-text-indigo"  style="float: left;"><p>info@gracelab.co</p></i>
+    </div>
 
- </a>
-   <div class="w3-col m4 w3-center">
-       <img class="links" src="Icon/mail-black-envelope-symbol.svg" alt="" />
-       <p>info@gracelab.co</p>
-  </div>
-  <!-- 4 icons without text-->
-   <a href="https://www.facebook.com/gracelab.co/">
-  <div class="w3-col m3 w3-center w3-padding-25">
-       <img class="links" src="Icon/facebook.svg" alt=""/>
-      <!-- <p>www.facebook.com/gracelab.co</p>-->
-</a>
-
- <a href="https://www.linkedin.com/company/grace-lab/">
-  <div class="w3-col m3 w3-center">
-       <img class="links" src="Icon/linkedin.svg" alt="" />
-     <!--  <p>www.linkedin.com/company/grace-lab</p>-->
-  </div>
-  </a>
-
-<a href="#">
-  <div class="w3-col m3 w3-center">
-       <img class="links" src="Icon/instagram.svg" alt="" />
-     <!--  <p>www.instagram/gracelab</p>
-  </div>     -->
-</a>
-
- <a href="http://gracelab.co/en/">
-   <div class="w3-col m3 w3-center">
-       <img class="links" src="Icon/internet (1).svg" alt="" />
-      <!-- <p>http://gracelab.co/en</p>-->
-  </div>
-  </a>
-
-  <!--End of container-->
+    <div class="w3-col m4 w3-center">
+       <i class="fa fa-phone fa-2x w3-hover-text-indigo"  style="float: left;"><p>+38 063 068 25 16</p></i>
+    </div>
+    </div>
   </div>
  
- </div><!-- End Page Content -->
+</div><!-- End Page Content -->
 
 </body>
 </html> 
